@@ -42,4 +42,9 @@ th,td{
     justify-content: center;
     text-align: center;
 }
+.form-btn{
+    padding: 10px 60px;
+    border-radius: 999px;
+    cursor: pointer;
+}
 
