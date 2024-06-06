@@ -1,0 +1,45 @@
+.form{
+    margin-top: 20px;
+    /* font-size: 15px; */
+}
+.form-age{
+    margin-top: 5px;
+    width: 50%;
+}
+.form-gender{
+    margin-top: 10px;
+}
+.form-check{
+    margin-top: 10px;
+}
+.form-pay{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    gap: 5px;
+}
+.form-textaria{
+    width: 50%;
+    height: 200px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color: #e0e0e0;
+}
+.form-th{
+    width: 15%;
+}
+th,td{
+    border: 1px solid black;
+    padding: 20px;
+}
+.form-radio{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+

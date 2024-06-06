@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tạo form lấy survey khách hàng</title>
+  </head>
+  <body>
+    <h1>Market Research Survey</h1>
+    <p>Please take a few moments to complete this satisfaction survey</p>
+    <div>
+      <form action="" method="post">
+        <div class="form">
+          <span><strong>What is your age range?</strong></span> <br />
+          <select name="age" class="form-age">
+            <option value="">&lt; 18</option>
+            <option value="">18-24</option>
+            <option value="">24-30</option>
+            <option value="">30-36</option>
+            <option value="">36-42</option>
+          </select>
+        </div>
+        <div class="form">
+          <span><strong>What is your yearly income range?</strong></span> <br />
+          <select name="income" class="form-age">
+            <option value="">$0 - $5,000</option>
+            <option value="">$5,000 - $10,000</option>
+            <option value="">$10,000 - $15,000</option>
+            <option value="">$15,000 - $20,000</option>
+            <option value="">$20,000 - $25,000</option>
+          </select>
+        </div>
+        <div class="form">
+          <span><strong>Gender</strong></span>
+          <div><input type="radio" name="male" class="form-gender" />Male</div>
+          <div>
+            <input type="radio" name="female" class="form-gender" />Female
+          </div>
+        </div>
+        <div class="form">
+          <span>
+            <strong
+              >Which of the following products have your purchased in the last 2
+              month. Please check all that apply.</strong
+            >
+          </span>
+          <div class="form-check">
+            <input type="checkbox" name="products" />Car
+            <input type="checkbox" name="products" />Motor
+            <input type="checkbox" name="products" />Bikecycle
+            <input type="checkbox" name="products" />Laptop
+            <input type="checkbox" name="products" />Mobile phone
+            <input type="checkbox" name="products" />Bag
+            <input type="checkbox" name="products" />Fridge
+            <input type="checkbox" name="products" />Induction cooker
+            <input type="checkbox" name="products" />Personal Computer
+            <input type="checkbox" name="products" />Plain
+          </div>
+        </div>
+        <div class="form">
+          <span><strong>How often would you see our new product?</strong></span>
+          <div>
+            <input type="radio" name="form-time" class="form-gender" /> Daily
+          </div>
+          <div>
+            <input type="radio" name="form-time" class="form-gender" /> Weekly
+          </div>
+          <div>
+            <input type="radio" name="form-time" class="form-gender" /> Monthly
+          </div>
+        </div>
+        <div class="form">
+          <span><strong>What would you pay for the new product?</strong></span>
+          <div class="form-pay">
+            <div>
+              <span><strong>$</strong></span>
+            </div>
+            <div>
+              <input type="text" /> <br />
+              <span>Dollars</span>
+            </div>
+            <span><strong>.</strong></span>
+            <div>
+              <input type="text" size="1" /> <br />
+              <span>Cents</span>
+            </div>
+          </div>
+        </div>
+        <div class="form">
+          <span
+            ><strong
+              >What feartures would you like to see in the new product.</strong
+            ></span
+          >
+          <div><textarea class="form-textaria"></textarea></div>
+        </div>
+        <div class="form">
+          <p>
+            Please rate your level of agreement with the following statements
+          </p>
+          <div class="form-table">
+            <table>
+              <tr>
+                <th></th>
+                <th class="form-th">Strongly Disagree</th>
+                <th class="form-th">Disagree</th>
+                <th class="form-th">Agree</th>
+                <th class="form-th">Strongly Agree</th>
+              </tr>
+              <tr>
+                <td><strong>Our products are priced fairly.</strong></td>
+                <td>
+                  <div class="form-radio">
+                    <input type="radio" name="form-table-radio" />1
+                  </div>
+                </td>
+                <td>
+                  <div class="form-radio">
+                    <input type="radio" name="form-table-radio" />2
+                  </div>
+                </td>
+                <td>
+                  <div class="form-radio">
+                    <input type="radio" name="form-table-radio" />3
+                  </div>
+                </td>
+                <td>
+                  <div class="form-radio">
+                    <input type="radio" name="form-table-radio" />4
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Our products are high quality.</strong></td>
+                <td>
+                  <div class="form-radio">
+                    <input type="radio" name="form-table-radio" />1
+                  </div>
+                </td>
+                <td>
+                  <div class="form-radio">
+                    <input type="radio" name="form-table-radio" />2
+                  </div>
+                </td>
+                <td>
+                  <div class="form-radio">
+                    <input type="radio" name="form-table-radio" />3
+                  </div>
+                </td>
+                <td>
+                  <div class="form-radio">
+                    <input type="radio" name="form-table-radio" />4
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong
+                    >You would recommend our product to a friend or
+                    coworket.</strong
+                  >
+                </td>
+                <td>
+                  <div class="form-radio">
+                    <input type="radio" name="form-table-radio" />1
+                  </div>
+                </td>
+                <td>
+                  <div class="form-radio">
+                    <input type="radio" name="form-table-radio" />2
+                  </div>
+                </td>
+                <td>
+                  <div class="form-radio">
+                    <input type="radio" name="form-table-radio" />3
+                  </div>
+                </td>
+                <td>
+                  <div class="form-radio">
+                    <input type="radio" name="form-table-radio" />4
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
